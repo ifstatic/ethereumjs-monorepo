@@ -37,6 +37,8 @@ echo "Debugging output                            "
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
 yarn list --pattern "@ethereumjs/block|@ethereumjs/blockchain|@ethereumjs/common|@ethereumjs/tx|@ethereumjs/vm|ethereumjs-util|merkle-patricia-tree"
+
+cat ../../package.json
 cat ./package.json
 
 # Build
