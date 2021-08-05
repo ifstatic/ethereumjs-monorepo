@@ -14,6 +14,10 @@ const newCorePackageJson = {
   dependencies: {
     ...corePackageJson.dependencies,
     ...resolutions
+  },
+  devDependencies: {
+    ...corePackageJson.devDependencies,
+    "@types/node": "^16.0.0" // fixes a build issue by using the node version set in .github/workflows/e2e-hardhat.yml
   }
 }
 
